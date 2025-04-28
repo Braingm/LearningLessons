@@ -1,8 +1,8 @@
-package ru.braingm.Animals;
+package ru.braingm.animals;
 
 import lombok.Getter;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     @Getter
     private static int count = 0;
 

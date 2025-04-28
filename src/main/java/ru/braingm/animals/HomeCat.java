@@ -1,12 +1,12 @@
-package ru.braingm.Animals;
+package ru.braingm.animals;
 
 import lombok.Getter;
 
-public class Cat extends Animal {
+public class HomeCat extends Animal {
     @Getter
     private static int count = 0;
 
-    public Cat(String name) {
+    public HomeCat(String name) {
         super(name);
         this.runDistance = 200;
         this.swimDistance = 0;

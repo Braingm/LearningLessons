@@ -1,4 +1,4 @@
-package ru.braingm.Animals;
+package ru.braingm.animals;
 
 import lombok.Getter;
 
@@ -14,17 +14,17 @@ public abstract class Animal {
     @Getter
     private static ArrayList<Animal> animals = new ArrayList<>();
 
-    protected Animal(String name){
+    protected Animal(String name) {
         this.name = name;
         animals.add(this);
         count++;
     }
 
-    public boolean swim(int distance){
+    public boolean swim(int distance) {
         return this.swimDistance >= distance;
     }
 
-    public boolean run(int distance){
+    public boolean run(int distance) {
         return this.runDistance >= distance;
     }
 }
