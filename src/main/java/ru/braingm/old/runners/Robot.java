@@ -1,9 +1,11 @@
-package ru.braingm.runners;
+package ru.braingm.old.runners;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
-public class Cat implements Actionable {
+public class Robot implements Actionable {
+    @Getter
     private final String name;
     private final int runDistance;
     private final int jumpDistance;
@@ -19,8 +21,8 @@ public class Cat implements Actionable {
         return jumpDistance >= distance;
     }
 
-    public void doCatStuff() {
-        System.out.println(name + " doing cat stuff");
+    public void doRobotStuff() {
+        System.out.println(name + " doing robot stuff");
     }
 
     @Override

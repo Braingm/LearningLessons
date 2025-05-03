@@ -1,4 +1,4 @@
-package ru.braingm.runners;
+package ru.braingm.old.runners;
 
 public interface Actionable {
     boolean run(int distance);

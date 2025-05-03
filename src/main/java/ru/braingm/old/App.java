@@ -1,10 +1,10 @@
-package ru.braingm;
+package ru.braingm.old;
 
-import ru.braingm.animals.Animal;
-import ru.braingm.animals.Dog;
-import ru.braingm.animals.HomeCat;
-import ru.braingm.animals.Tiger;
-import ru.braingm.runners.*;
+import ru.braingm.old.animals.Animal;
+import ru.braingm.old.animals.Dog;
+import ru.braingm.old.animals.HomeCat;
+import ru.braingm.old.animals.Tiger;
+import ru.braingm.old.runners.*;
 
 import java.util.ArrayList;
 

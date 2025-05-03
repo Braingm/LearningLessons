@@ -1,4 +1,4 @@
-package ru.braingm.runners;
+package ru.braingm.old.runners;
 
 public enum ObstacleType {
     Wall,

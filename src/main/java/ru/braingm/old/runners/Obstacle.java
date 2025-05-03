@@ -1,4 +1,4 @@
-package ru.braingm.runners;
+package ru.braingm.old.runners;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

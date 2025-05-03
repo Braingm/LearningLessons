@@ -1,4 +1,4 @@
-package ru.braingm.animals;
+package ru.braingm.old.animals;
 
 import lombok.Getter;
 
